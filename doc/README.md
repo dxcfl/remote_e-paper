@@ -67,7 +67,7 @@ BUSY can be freely mapped to the other digital signals of the Photon.
 
 This is the mapping table for wiring the module with the Photon:
 
-![](https://raw.githubusercontent.com/dxcfl/remote_e-paper/master/doc/Particle%20Photon%20%2B%20Waveshare%201.54%20inch%20e-Paper%20Module%20%20-%20Pins%20%26%20Wires.png)
+![](https://github.com/dxcfl/remote_e-paper/blob/master/doc/Particle%20Photon%20%2B%20Waveshare%201.54%20inch%20e-Paper%20Module%20%20-%20Pins%20%26%20Wires.png)
 
 and this is the final wiring:
 
@@ -135,12 +135,12 @@ text message to be displayed
 
 - display the given text  as shown in the *ep1in54-demo* example.
 
-The complete code is [here](https://raw.githubusercontent.com/dxcfl/remote_e-paper/master/doc/src/RemoteLabel.ino).
+The complete code is [here](https://github.com/dxcfl/remote_e-paper/blob/master/src/RemoteLabel.ino).
 
 After being compiled and flashed a new function **show** should be
 available on your device and being shown at the Particle console:
 
-![](https://github.com/dxcfl/remote_e-paper/blob/master/doc/screenshots/Screenshot%20=%20Example%20=%20Particle%20console.jpg?raw=true)
+![](https://github.com/dxcfl/remote_e-paper/blob/master/doc/Screenshot%20%3D%20Example%20%3D%20Particle%20console.jpg)
 
 Calling this function with parameter "CLEAR" will clear the e-papper.
 Any other parameter will be treated as text to be displayed. 
